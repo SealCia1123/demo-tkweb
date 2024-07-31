@@ -1,0 +1,37 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    background: linear-gradient(#0001ff, #18a1ff);
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li {
+    list-style-type: none;
+}
+
+ul.menu li a {
+    display: block;
+    padding: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu li {
+    border-right: 1px solid white;
+}
+
+div.product {
+    width: 25%;
+    background-color: blue;
+}
