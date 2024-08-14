@@ -5,41 +5,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Thế Giới Di Động</title>
     <link rel="stylesheet" href="css/bai6.css">
+    <script src="js/bai6.js"></script>
 </head>
 
 <body>
-    <nav class="flex">
-        <ul class="menu flex">
-            <li><a href="#">Trang chủ</a></li>
-            <li><a href="#">Điện thoại</a></li>
-            <li><a href="#">Máy tính bảng</a></li>
-            <li><a href="#">Laptop</a></li>
-        </ul>
-        <ul class="menu flex">
-            <li><a href="#">Liên hệ</a></li>
-        </ul>
-    </nav>
-
-
+    <header>
+        <nav>
+            <ul class="menu flex">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Điện thoại</a></li>
+                <li><a href="#">Máy tính bảng</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <section>
-            <div class="products flex">
-                <div class="product">
-                    <div>
-                        <img src="images/iphoneX.png" alt="iPhone X" width="100%" />
-                        <h2>iPhone X</h2>
-                    </div>
+        <input id="search" type="text" placeholder="Tìm sản phẩm" />
+        <section class="products flex">
+            <div class="product">
+                <div>
+                    <img src="images/phone.png" alt="iPhone" />
+                    <h3>iPhone 15</h3>
+                    <div class="price">29.000.000<sup>đ</sup></div>
                 </div>
             </div>
+            <div class="product">
+                <div>
+                    <img src="images/phone.png" alt="iPhone" />
+                    <h3>iPhone 13</h3>
+                    <div class="price">29.000.000<sup>đ</sup></div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/phone.png" alt="iPhone" />
+                    <h3>iPhone 14</h3>
+                    <div class="price">29.000.000<sup>đ</sup></div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/phone.png" alt="iPhone" />
+                    <h3>Galaxy S8</h3>
+                    <div class="price">29.000.000<sup>đ</sup></div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/phone.png" alt="iPhone" />
+                    <h3>Galaxy S9</h3>
+                    <div class="price">29.000.000<sup>đ</sup></div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/phone.png" alt="iPhone" />
+                    <h3>Galaxy S10</h3>
+                    <div class="price">29.000.000<sup>đ</sup></div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/phone.png" alt="iPhone" />
+                    <h3>Galaxy S11</h3>
+                    <div class="price">29.000.000<sup>đ</sup></div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <img src="images/phone.png" alt="iPhone" />
+                    <h3>Note 11</h3>
+                    <div class="price">29.000.000<sup>đ</sup></div>
+                </div>
+            </div>
+
+
         </section>
-        <section></section>
+
+        <section class="details flex">
+            <div class="left">
+                <img id="main" src="images/galaxys8/Blue_1.jpg" alt="galaxys8" />
+                <div class="thumb flex">
+                    <div><img src="images/galaxys8/Blue_1.jpg" alt="galaxys8"></div>
+                    <div><img src="images/galaxys8/Blue_2.jpg" alt="galaxys8"></div>
+                    <div><img src="images/galaxys8/Blue_3.jpg" alt="galaxys8"></div>
+                    <div><img src="images/galaxys8/Blue_4.jpg" alt="galaxys8"></div>
+                    <div><img src="images/galaxys8/Blue_5.jpg" alt="galaxys8"></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="buttons">
+                    <button rel="Blue_" style="background-color: blue;"></button>
+                    <button rel="Silver_" style="background-color: silver;"></button>
+                    <button rel="Gold_" style="background-color: gold;"></button>
+                    <button rel="Black_" style="background-color: black;"></button>
+                </div>
+                <h2 class="red">29.000.000<sup>đ</sup></h3>
+                    <div class="info">
+                        <h3>Khuyến mãi</h4>
+                            <ul>
+                                <li>Giảm ngay 3 triệu (áp dụng cho đơn hàng đặt và nhận từ ngày 10 - 12/8)</li>
+                                <li>Cơ hội trúng 38 xe Wave Alpha khi trả góp Home Credit</li>
+                            </ul>
+                    </div>
+                    <div class="info">
+                        <h3>Mua online tặng thêm</h4>
+                            <ul>
+                                <li>Phiếu mua hàng Samsung trị giá 250.000đ khi mua online</li>
+                            </ul>
+                    </div>
+            </div>
+        </section>
+
     </main>
 
-    <footer></footer>
+    <footer>
 
-
+    </footer>
 </body>
 
 </html>
